@@ -1,0 +1,34 @@
+GIT advanteges
+1. Vesion control system : 
+Keep every version of your file. With this function, changing file name and saving new version is not nesseary.
+
+
+
+2. Decentralized Version Control System
+Synchronize your file with people cooperating with you.
+
+
+
+3. Git的設計架構讓開發者能碰到底層、進行更彈性的開發
+為了管理龐大的Linux Kernel程式碼、勢必要選擇合適的版本控制系統；Linus認為CVS和SVN這些集中式的版本控制系統速度慢又要連網，故而堅定地反對。
+
+然而當時的分散式版本系統都要付費，不合開源精神；好在分散式版本控制系統BitKeeper雖然是一家商業公司所發行，但它還是願意開放給Linux社群免費使用。
+
+這幸福的日子直到2005年的某一天，一個Linux Kernel 的開發者嘗試去破解BitKeeper裡面的東西、惹怒了 BitKeeper，導致後來免費使用權被收回去。
+
+你可能會以為Linus會跑去道歉，一切又相安無事；然而大神就是大神，BitKeeper跟大多數人沒想到的事情是、Linus會乾脆自己在十天內搞出一個 Git。
+
+由於Linus一開始在開發Git的時候，不是以「我要開發出版本控制系統」、而是「我要讓其他人更好的開發出版本控制系統」的角度出發。
+
+所以他設計了一套以命令字元(Commands)組成的工具集、讓其他人得以藉由這套工具去開發出版本控制系統。
+
+這套底層命令叫做Plumbing，就像幫浦在地底下打好了輸送水的基礎，使用者可自行在上面建立高層命令Porcelain，也就是在水管上蓋任何你想蓋的馬桶、浴缸等的應用。
+
+Git在Linus的想像中是作為內部核心、讓開發更快更容易，如同他當初寫出了Linux Kernel後再釋出開源碼、讓其他開發者得更加完善化。
+
+也因此Git不是一個很友善的使用者介面，因為它本來就不是要直接作為版本控制系統來使用的。
+
+
+
+4. GitHub是全世界最受歡迎的程式碼管理/分享網站
+
