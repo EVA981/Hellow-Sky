@@ -1,5 +1,3 @@
-# Hellow-Sky
-# FORTRAN
 PROGRAM hellow_sky
 IMPLICIT NONE
 CHARACTER(10) :: a = 'Hellow Sky'
